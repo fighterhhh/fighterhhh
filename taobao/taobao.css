@@ -1,0 +1,279 @@
+@charset "utf-8";
+body,ul,ol,h1,h2,h3,h4,h5,h6,p,input,select,textarea,dl,dd{margin: 0;padding: 0;}
+ul,ol{list-style: none;}
+img{border: none; vertical-align: top;}
+a{text-decoration: none;}
+.clearfix:after,.clearfix:before{content: "";display: table;}
+.clearfix:after{clear: both;}
+.clearfix{*zoom:1;}
+.header{
+	width:1349px;
+	height:36px;
+	background-color: #F5F5F5;
+	font-size: 12px;
+}
+.fz{font-size: 12px;}
+.top{
+	width:1189px;
+	height:36px;
+	
+	line-height:36px;
+	}
+.left{
+	float: left;
+	margin-left:80px;
+}
+.right{
+	float: right;
+}
+.right>p{
+	display:inline-block;
+	color: #6C6C6C;
+	margin-right:20px;
+}
+.che{
+	display: inline-block;
+	width:12px;
+	height:12px;
+	background:url(xiaoche.png) no-repeat left center;
+	padding-right: 7px;
+}
+.xing{
+	display: inline-block;
+	width:12px;
+	height:12px;
+	background:url(xingxing%20.gif) no-repeat left center;
+	padding-right: 7px;
+}
+.xian{
+	display: inline-block;
+	width:12px;
+	height:12px;
+	background:url(sanhenggang.png) no-repeat left center;
+	padding-right: 7px;
+}
+.xian1,.xian2,.xian3,.xian4,.xian5{
+	display: inline-block;
+	width:5px;
+	height:3px;
+	background:url(jiantou.png) no-repeat left center;
+	margin-left:9px;
+
+}
+.header2{
+	width:1191px;
+	height:117px;
+	margin-top:43px;
+	margin-left:80px;
+	float：right;
+	font-size: 12px;
+}
+.logo{
+
+	float:left;
+}
+.sousuo{
+	width:595px;
+	height:39px;
+	border:3px solid #AF7F00;
+	float:left;
+	margin-left:109px;
+}
+.ssfr{
+	width:715px;
+	height:39px;
+		float:left;
+		line-height:39px;
+	}
+.bbhz{
+	width:74px;
+	height:39px;
+	background-color:#F5F5F5;
+	border-right:1px solid #E5E5E5; 
+	float:left;
+	}
+.bb{
+	
+	float:left;
+	padding-left:23px;
+	
+	
+}
+.bbjt{
+	width:5px;
+	height:3px;
+	float:right;
+	padding-right:9px;
+	padding-top:18px;
+	
+}
+.xiamiyinyue{
+	width:394px;
+	height:39px;
+	float:left;
+	
+	display:inline-block;
+	padding-left:29px;
+	background:url(sou.gif) no-repeat 11px 15px, url(huatong.png) no-repeat 392px 12px;
+}
+.sousuoanniu{
+	width:97px;
+	height:39px;
+	color:#FFECE6;
+	background-color:#FF4400;
+	float:left;
+	text-align:center;
+
+}
+.gjss{
+	width:24px;
+	height:30px;
+
+	float: left;
+	line-height: 20px;
+	margin-left: 18px;
+
+	
+}
+
+.gengduo{
+	height: 12px;
+
+	color: #6C6C6C;
+	margin-top: 52px;
+
+}
+.erweima{
+	width:115px;
+	height:114px;
+	float:left;
+	margin-left:128px;
+	margin-top: -20px;
+}
+.tbfw1{
+	width:189px;
+	margin-top:7px;
+	margin-left:80px;
+	float:left;
+	}
+.tbfw{
+width:189px;
+text-align: center;
+line-height: 41px;
+
+}
+.tbfwbt{	
+	height:41px;
+	background-color:#FF4400;
+	color: #FFCDBA;	
+
+}
+.tbfw2{
+	width:187px;
+	height:488px;
+	border: 1px solid #BBBBBB;
+	border-top: none;
+}	
+.ztschz{
+    margin-left: 6px;
+	height: 151px;
+	border-bottom: 1px solid #DEDEDE ;
+	background: url("xiaolanzi.png") no-repeat 1px 10px ;
+}
+.ztsc{
+	padding-top: 10px;
+	padding-left: 34px;
+color:#030303;
+	font-size: 14px;
+	padding-bottom: 7px;
+	
+}
+
+.zsfl li{
+	padding-left:9px;
+	float: left;
+	font-size: 12px;
+	line-height: 21px;
+}
+
+.tsgwhz{
+	 margin-left: 3px;
+	height: 151px;
+	border-bottom: 1px solid #DEDEDE;
+	background: url("xiaolanzi2.png") no-repeat 4px 10px ;
+}
+.tsgw{margin-bottom: 12px;
+	line-height: 28px;
+	margin-left: 40px;
+color: black;
+	font-size: 14px;
+	padding-top: 6px;
+}
+.tgfl li{
+	padding-left:9px;
+	float: left;
+	font-size: 12px;
+	line-height: 21px;
+}
+.yhcxhz{
+	background: url("xiaolanzi3.png") no-repeat 1px 8px ;
+	  margin-left: 6px;
+	height: 91px;
+	border-bottom: 1px solid #DEDEDE;
+}
+.yhcx{
+	margin-bottom: 12px;
+	line-height: 27px;
+	margin-left: 40px;
+color: black;
+	font-size: 14px;
+	padding-top: 6px;
+}
+.ycfl li{
+	padding-left:9px;
+	float: left;
+	font-size: 12px;
+	line-height: 21px;
+}
+.gjhz{
+	background: url("xiaolanzi4.png") no-repeat 1px 8px ;
+	  margin-left: 6px;
+		height: 67px;
+	border-bottom: 1px solid #DEDEDE;
+}
+.gj{
+	margin-bottom: 12px;
+	line-height: 25px;
+	margin-left: 40px;
+color: black;
+	font-size: 14px;
+	padding-top: 6px;
+}
+.gjfl li{
+	padding-left:9px;
+	float: left;
+	font-size: 12px;
+}
+.banner{
+	width:1000px;
+	height:530px;
+	float:left;
+	margin-top:7px;
+	margin-left:9px;
+	background-color:pink;
+}
+.banner_top{
+	height:39px;
+	background-color:blue;
+	border-bottom:2px solid #FF4400;
+}
+.banner_top1{
+	height:26px;
+	padding-top:10px;
+	padding-left:23px;
+}
+.banner_top1 li{
+	float:left;
+	font-size:14px;
+	margin-right:38px;
+}
